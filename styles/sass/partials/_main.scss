@@ -39,5 +39,51 @@ h1{
 .calculator{
    background-color: #fff;
    border-radius: 10px;
-   
+   display: flex;
+   padding: 10px;
 }
+
+form{
+   width: 40%;
+   .calcLabel{
+      color: variables.$calculatorText;
+   }
+}
+
+// .radio-container{
+//   width: 110px;
+// }
+
+input[type="radio"]{
+  opacity: 0;
+  text-align: center;
+}
+
+fieldset{
+  border: none;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+  label{
+    width: 110px;
+    color:white;
+    font-size: 1.1rem;
+    border: 2px solid #1A484C;
+    background-color: #1A484C;
+    border-radius: 5px;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+
+.calculatorOutput{
+   width: 48%;
+}
+
+
+

@@ -15,19 +15,47 @@
     <h1>spli<span>tter</span></h1>
     <div class="calculator">
       <form action="#">
-        <label for="bill">Bill</label>
+        <label for="bill" class="calcLabel">Bill</label>
         <input type="text" name="bill" id="bill">
         <fieldset>
-          <legend>Select tip %</legend>
-          <label><input type="radio" name="radio" value="yes" /> 5%</label>
-          <label><input type="radio" name="radio" value="yes" /> 10%</label>
-          <label><input type="radio" name="radio" value="yes" /> 15%</label>
-          <label><input type="radio" name="radio" value="yes" /> 25%</label>
-          <label><input type="radio" name="radio" value="yes" /> 50%</label>
+              <div className="radio-container">
+                <input type="radio" id="tip" name="tip"></input>
+                <label for="tip">5%</label>
+              </div>
+              <div className="radio-container">
+                <input type="radio" id="tip" name="tip"></input>
+                <label for="tip">10%</label>
+              </div>
+              <div className="radio-container">
+                <input type="radio" id="tip" name="tip"></input>
+                <label for="tip">15%</label>
+              </div>
+              <div className="radio-container">
+                <input type="radio" id="tip" name="tip"></input>
+                <label for="tip">25%</label>
+              </div>
+              <div className="radio-container">
+                <input type="radio" id="tip" name="tip"></input>
+                <label for="tip">50%</label>
+              </div>
+              <div className="radio-container">
+                <input type="radio" id="tip" name="tip"></input>
+                <label for="tip">Custom</label>
+              </div>
         </fieldset>
-        <label for="people">Number of people</label>
+        <label class="calcLabel" for="people">Number of people</label>
         <input type="number" name="people" id="people">
       </form>
+      <div class="calculatorOutput">
+        <div>
+          <h2>Tip Amount <span>/ person</span></h2>
+          <p>$4.27</p>
+        </div>
+        <div>
+          <h2>Total <span>/ person</span></h2>
+          <p>$32.79</p>
+        </div>
+      </div>
     </div>
   </div>
 </body>
