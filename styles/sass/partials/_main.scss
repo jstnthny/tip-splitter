@@ -51,6 +51,14 @@ form{
       font-size: 1rem;
    }
 }
+.inputContainer{
+   display: flex;
+   flex-direction: column;
+   margin: 5px 0;
+   input{
+      width: 90%;
+   }
+}
 
 input[type="radio"]{
   opacity: 0;

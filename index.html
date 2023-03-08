@@ -15,37 +15,41 @@
     <h1>spli<span>tter</span></h1>
     <div class="calculator">
       <form action="#">
-        <label for="bill" class="calcLabel">Bill</label>
-        <input type="text" name="bill" id="bill">
+        <div class="inputContainer">
+          <label for="bill" class="calcLabel">Bill</label>
+          <input type="text" name="bill" id="bill">
+        </div>
         <fieldset>
           <legend>Select tip %</legend>
-              <div className="radio-container">
+              <div className="radioContainer">
                 <input type="radio" id="tip" name="tip"></input>
                 <label for="tip">5%</label>
               </div>
-              <div className="radio-container">
+              <div className="radioContainer">
                 <input type="radio" id="tip" name="tip"></input>
                 <label for="tip">10%</label>
               </div>
-              <div className="radio-container">
+              <div className="radioContainer">
                 <input type="radio" id="tip" name="tip"></input>
                 <label for="tip">15%</label>
               </div>
-              <div className="radio-container">
+              <div className="radioContainer">
                 <input type="radio" id="tip" name="tip"></input>
                 <label for="tip">25%</label>
               </div>
-              <div className="radio-container">
+              <div className="radioContainer">
                 <input type="radio" id="tip" name="tip"></input>
                 <label for="tip">50%</label>
               </div>
-              <div className="radio-container">
+              <div className="radioContainer">
                 <input type="radio" id="tip" name="tip"></input>
                 <label class="customTip"for="tip">Custom</label>
               </div>
         </fieldset>
-        <label class="calcLabel" for="people">Number of people</label>
-        <input type="number" name="people" id="people">
+        <div class="inputContainer">
+          <label class="calcLabel" for="people">Number of people</label>
+          <input type="number" name="people" id="people">
+        </div>
       </form>
       <div class="calculatorOutput">
         <div>

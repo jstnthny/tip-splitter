@@ -319,6 +319,20 @@ form .calcLabel {
   font-size: 1rem;
 }
 
+.inputContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px 0;
+}
+.inputContainer input {
+  width: 90%;
+}
+
 input[type=radio] {
   opacity: 0;
   text-align: center;
