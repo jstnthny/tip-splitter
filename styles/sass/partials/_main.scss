@@ -1,21 +1,20 @@
-@use "../partials/variables";
+@use "./variables";
 
 html{
-   scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body{
-   font-size: 125%;
-   background-color: variables.$background;
+    font-size: 125%;
+    background-color: variables.$bg;;
 }
 
-.wrapper{
-   width: 95%;
-   margin: 0 auto;
-   max-width: 1500px;
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1500px;
 }
 
 h1{
    text-transform: uppercase;
-   font-size: 200px;
 }
