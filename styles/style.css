@@ -331,6 +331,10 @@ form .calcLabel {
 }
 .inputContainer input {
   width: 90%;
+  background-color: #F3F8FB;
+  border: 1px #F3F8FB;
+  border-radius: 2px;
+  margin: 2px;
 }
 
 input[type=radio] {
