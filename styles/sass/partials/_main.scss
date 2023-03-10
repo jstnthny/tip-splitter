@@ -41,6 +41,7 @@ h1{
    border-radius: 10px;
    display: flex;
    padding: 30px;
+   width: 80%;
 }
 
 form{
@@ -55,12 +56,16 @@ form{
    display: flex;
    flex-direction: column;
    margin: 5px 0;
-   input{
-      width: 90%;
-      background-color: #F3F8FB;
-      border: 1px #F3F8FB;
-      border-radius: 2px;
-      margin: 2px;
+   .inputIcon{
+      border: 1px solid #F3F8FB ;
+      input{
+         width: 90%;
+         background-color: #F3F8FB;
+         border: 0;
+         border-radius: 2px;
+         margin: 2px;
+         text-align: right;
+      }
    }
 }
 
@@ -78,18 +83,7 @@ fieldset{
   flex-wrap: wrap;
   gap: 10px;
   padding: 0;
-  .customTip{
-     background-color: #fff;
-     color: variables.$calculatorText;
-     border: none;
-  }
-  legend{
-     font-size: 1rem;
-     color: variables.$calculatorText;
-     margin-bottom: 10px;
-  }
-  label{
-    width: 100px;
+   label{
     color:white;
     font-size: 1.1rem;
     border: 2px solid variables.$blueishgreenish;
@@ -101,7 +95,24 @@ fieldset{
     justify-content: center;
     cursor: pointer;
   }
+  .customTip{
+     background-color: #fff;
+     color: variables.$calculatorText;
+     border: none;
+  }
+  legend{
+     font-size: 1rem;
+     color: variables.$calculatorText;
+     margin-bottom: 10px;
+  }
+  .radioContainer{
+     width: 100px;
+  }
 }
+
+
+
+
 
 // Calculator output
 

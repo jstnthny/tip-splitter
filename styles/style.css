@@ -308,6 +308,7 @@ h1 span {
   display: -ms-flexbox;
   display: flex;
   padding: 30px;
+  width: 80%;
 }
 
 form {
@@ -329,12 +330,16 @@ form .calcLabel {
           flex-direction: column;
   margin: 5px 0;
 }
-.inputContainer input {
+.inputContainer .inputIcon {
+  border: 1px solid #F3F8FB;
+}
+.inputContainer .inputIcon input {
   width: 90%;
   background-color: #F3F8FB;
-  border: 1px #F3F8FB;
+  border: 0;
   border-radius: 2px;
   margin: 2px;
+  text-align: right;
 }
 
 input[type=radio] {
@@ -355,18 +360,7 @@ fieldset {
   gap: 10px;
   padding: 0;
 }
-fieldset .customTip {
-  background-color: #fff;
-  color: #677274;
-  border: none;
-}
-fieldset legend {
-  font-size: 1rem;
-  color: #677274;
-  margin-bottom: 10px;
-}
 fieldset label {
-  width: 100px;
   color: white;
   font-size: 1.1rem;
   border: 2px solid #1A484C;
@@ -383,6 +377,19 @@ fieldset label {
       -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer;
+}
+fieldset .customTip {
+  background-color: #fff;
+  color: #677274;
+  border: none;
+}
+fieldset legend {
+  font-size: 1rem;
+  color: #677274;
+  margin-bottom: 10px;
+}
+fieldset .radioContainer {
+  width: 100px;
 }
 
 .calculatorOutput {
