@@ -40,7 +40,7 @@ h1{
    background-color: #fff;
    border-radius: 10px;
    display: flex;
-   padding: 10px;
+   padding: 30px;
 }
 
 form{
@@ -106,7 +106,7 @@ fieldset{
 // Calculator output
 
 .calculatorOutput{
-   width: 48%;
+   width: 55%;
    background-color: variables.$blueishgreenish;
    border-radius: 15px;
    padding: 10px;
@@ -121,6 +121,7 @@ fieldset{
       font-family: variables.$mainFont;
       color: variables.$blueishgreenish;
       font-weight: bold;
+      padding: 10px 5px;
    }
    div{
       display: flex;

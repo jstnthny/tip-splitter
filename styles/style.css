@@ -307,7 +307,7 @@ h1 span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px;
+  padding: 30px;
 }
 
 form {
@@ -386,7 +386,7 @@ fieldset label {
 }
 
 .calculatorOutput {
-  width: 48%;
+  width: 55%;
   background-color: #1A484C;
   border-radius: 15px;
   padding: 10px;
@@ -402,6 +402,7 @@ fieldset label {
   font-family: "Space Mono", monospace;
   color: #1A484C;
   font-weight: bold;
+  padding: 10px 5px;
 }
 .calculatorOutput div {
   display: -webkit-box;
