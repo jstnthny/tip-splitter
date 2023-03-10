@@ -12,6 +12,11 @@ body{
     padding: 0;
 }
 
+ input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+      }
+
 .wrapper {
   width: 95%;
   margin: 0 auto;
@@ -94,6 +99,10 @@ fieldset{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    &:hover{
+       background-color: #26C2AD;
+       border: #26C2AD;
+    }
   }
   .customTip{
      background-color: #fff;

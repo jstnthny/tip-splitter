@@ -268,6 +268,11 @@ body {
   padding: 0;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
 .wrapper {
   width: 95%;
   margin: 0 auto;
@@ -377,6 +382,10 @@ fieldset label {
       -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer;
+}
+fieldset label:hover {
+  background-color: #26C2AD;
+  border: #26C2AD;
 }
 fieldset .customTip {
   background-color: #fff;
