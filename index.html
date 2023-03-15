@@ -25,24 +25,24 @@
         <fieldset>
           <legend>Select tip %</legend>
               <div class="radioContainer">
-                <input type="radio" id="tip" name="tip"></input>
-                <label for="tip">5%</label>
+                <input type="radio" name="tip" value="0.05"></input>
+                <label for="tip" id="tip" value="0.05">5%</label>
               </div>
               <div class="radioContainer">
-                <input type="radio" id="tip" name="tip"></input>
-                <label for="tip">10%</label>
+                <input type="radio" name="tip"></input>
+                <label for="tip" id="tip">10%</label>
               </div>
               <div class="radioContainer">
-                <input type="radio" id="tip" name="tip"></input>
-                <label for="tip">15%</label>
+                <input type="radio" name="tip"></input>
+                <label for="tip" id="tip">15%</label>
               </div>
               <div class="radioContainer">
-                <input type="radio" id="tip" name="tip"></input>
-                <label for="tip">25%</label>
+                <input type="radio" name="tip"></input>
+                <label for="tip" id="tip">25%</label>
               </div>
               <div class="radioContainer">
-                <input type="radio" id="tip" name="tip"></input>
-                <label for="tip">50%</label>
+                <input type="radio"name="tip"></input>
+                <label for="tip" id="tip">50%</label>
               </div>
               <div class="radioContainer">
                 <input type="radio" id="tip" name="tip"></input>
@@ -61,11 +61,11 @@
       <div class="calculatorOutput">
           <div>
             <h2>Tip Amount <span>/ person</span></h2>
-            <p>$4.27</p>
+            <p class="tipAmount"></p>
           </div>
           <div>
             <h2>Total <span>/ person</span></h2>
-            <p>$32.79</p>
+            <p class="totalAmount"></p>
           </div>
           <div>
             <button>Reset</button>

@@ -1,8 +1,27 @@
-const btn = document.querySelectorAll(".radioContainer");
+let bill = document.querySelector("#bill").textContent;
+let tipAmount = document.querySelector(".tipAmount");
+let tipButtons = document.querySelectorAll("#tip");
+let form = document.querySelector("form");
+// console.log(form.bill.textContent);
 
-console.log(btn);   
+tipButtons.forEach((tipButton) => {
+    tipButton.addEventListener("click", (e) => setBill(e.target.textContent))
+})
 
 
+
+
+
+// Function set initial Bill
+
+function setBill(tip,e){
+    console.log(e); 
+    
+}
+
+function formHandler(e){
+    console.log("test")
+}
 
 // JS Logic
 
